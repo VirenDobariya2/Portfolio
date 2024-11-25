@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
-// import "./Project.css";
+import "./project.css";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import "./SKill.css";
-import SKillCard from "./SKillCard/SKillCard";
+import "./skill.css";
+import SKillCard from "./SKillCard/SkillCard";
 import { SKILLS } from "../../utils/data";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
 
