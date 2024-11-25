@@ -1,0 +1,14 @@
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-container h5 {
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+.project-container {
+  margin: 4rem 0;
+  position: relative;
+}
