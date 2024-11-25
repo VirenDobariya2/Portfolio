@@ -1,5 +1,5 @@
 import React from 'react'
-import './skillsInfoCard.css'
+import './SkillsInfoCard.css'
 
 const SkillsInfoCard = ({heading, skills}) => {
   return (

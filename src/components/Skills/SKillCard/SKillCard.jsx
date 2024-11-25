@@ -1,5 +1,5 @@
 import React from "react";
-import "./skillCard.css";
+import "./SkillCard.css";
 
 const SKillCard = ({ title, iconUrl, isActive, onClick }) => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./mobileNav.css";
+import "./MobileNav.css";
 import { Link } from "react-scroll";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
