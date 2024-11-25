@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { IoReorderThreeOutline } from "react-icons/io5";
-import "./navbar.css";
+import "./Navbar.css";
 import MobileNav from "./MobileNav/MobileNav";
 
 const Navbar = () => {
