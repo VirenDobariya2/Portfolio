@@ -14,7 +14,7 @@ function App() {
         <div id="home" className="section">
           <Hero />
         </div>
-        <div id="skills" className="section">
+        <div id="skill" className="section">
           <Skill />
         </div>
         <div id="workexperience" className="section">
