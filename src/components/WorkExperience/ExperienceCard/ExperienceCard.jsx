@@ -1,5 +1,5 @@
 import React from 'react'
-import './ExperienceCard.css'
+// import './ExperienceCard.css'
 
 const ExperienceCard = ({details}) => {
   return (
