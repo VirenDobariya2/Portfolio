@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import "./Skill.css";
 import { SKILLS } from "../../utils/data";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
-import SkillCardone from "./SkillCard/SkillCardone";
+// import SkillCardone from "./SkillCard/SkillCardone";
 
 
 const Skill = () => {
@@ -18,7 +18,7 @@ const Skill = () => {
 
       <div className="skills-content">
         <div className="skills">
-          {SKILLS.map((item) => (
+          {/* {SKILLS.map((item) => (
             <SkillCardone
               key={item.title}
               iconUrl={item.icon}
@@ -28,7 +28,7 @@ const Skill = () => {
                 handleSelectSkill(item)
               }}
             />
-          ))}
+          ))} */}
         </div>
         <div className="skills-info">
           <SkillsInfoCard
