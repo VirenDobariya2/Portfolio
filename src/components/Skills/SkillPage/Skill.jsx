@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../SkillPage/Skill.css";
 import { SKILLS } from "../../../utils/data.js";
 import SkillsInfoCard from "../SkillsInfoCard/SkillsInfoCard.jsx";
-import SkillCardone from "../SkillCard/SkillCardone.jsx";
+import SkillCardone from "../SkillCardone/SkillCardone.jsx";
 
 
 const Skill = () => {
