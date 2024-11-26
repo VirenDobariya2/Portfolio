@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import "./Skill.css";
+import "../Skills/Skill.css";
 import { SKILLS } from "../../utils/data";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
-// import SkillCardone from "./SkillCard/SkillCardone.jsx";
+import SkillCardone from "./SkillCard/SkillCardone.jsx";
 
 
 const Skill = () => {
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
 
-  // const handleSelectSkill = (data) => {
-  //   setSelectedSkill(data);
-  // };
+  const handleSelectSkill = (data) => {
+    setSelectedSkill(data);
+  };
 
   return (
     <section className="skills-container">
@@ -18,7 +18,7 @@ const Skill = () => {
 
       <div className="skills-content">
         <div className="skills">
-          {/* {SKILLS.map((item) => (
+          {SKILLS.map((item) => (
             <SkillCardone
               key={item.title}
               iconUrl={item.icon}
@@ -28,7 +28,7 @@ const Skill = () => {
                 handleSelectSkill(item)
               }}
             />
-          ))} */}
+          ))}
         </div>
         <div className="skills-info">
           <SkillsInfoCard
