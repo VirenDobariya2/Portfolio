@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import "./Skill.css";
-import SkillCard from "./SkillCard/SkillCard"
+// import SkillCard from "./SkillCard/SkillCard"
 import { SKILLS } from "../../utils/data";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
 
@@ -17,7 +17,7 @@ const Skill = () => {
 
       <div className="skills-content">
         <div className="skills">
-          {SKILLS.map((item) => (
+          {/* {SKILLS.map((item) => (
             <SkillCard
               key={item.title}
               iconUrl={item.icon}
@@ -27,7 +27,7 @@ const Skill = () => {
                 handleSelectSkill(item)
               }}
             />
-          ))}
+          ))} */}
         </div>
         <div className="skills-info">
           <SkillsInfoCard
