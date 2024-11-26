@@ -3,7 +3,7 @@ import ContactMe from "./components/ContactMe/ContactMe";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import ProjectsSection from "./components/Project/ProjectsSection/ProjectSection";
-import Skill from "./components/Skills/Skill";
+import Skill from "./components/Skills/Skill"
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 
 function App() {
